@@ -1,0 +1,23 @@
+ForHub
+--------------------------------------
+GotoStandalone and drivers path and then on cmd
+
+C:\Users\Soumyansh\Desktop\selenium-java-3.9.1>java -jar selenium-server-standal
+one-3.11.0.jar -role hub
+
+For Node on Chrome
+------------------------
+
+C:\Users\Soumyansh\Desktop\selenium-java-3.9.1>java -Dwebdriver.chrome.driver="C
+:\Users\Soumyansh\Desktop\selenium-java-3.9.1\chromedriver.exe" -jar selenium-se
+rver-standalone-3.11.0.jar -role webdriver -hub http://192.168.0.100:4444/grid/r
+egister -port 5566
+
+
+For Node on Firefox
+------------------------------
+
+C:\Users\Soumyansh\Desktop\selenium-java-3.9.1>java -Dwebdriver.gecko.driver="C:
+\Users\Soumyansh\Desktop\selenium-java-3.9.1\geckodriver.exe" -jar selenium-serv
+er-standalone-3.11.0.jar -role webdriver -hub http://192.168.0.100:4444/grid/reg
+ister -port 5567
